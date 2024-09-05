@@ -1,5 +1,5 @@
-progamName=numeros_parceiros #mudar nome do programa
-scr=numeros_parceiros.cpp
+progamName=expressao_simples #mudar nome do programa
+scr=espressao_simples.cpp
 
 all:$(progamName)
 
