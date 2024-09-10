@@ -6,12 +6,17 @@ int main() {
     cin >> t;
 
     while (t--) {
-        int x, y;
+        string x, y;
         cin >> x >> y;
-        if ((x+y) % 2 == 1)
-            cout << "NAO PARCEIROS\n";
-        else
+
+        char ult_x = x.back();
+        char ult_y = y.back();
+
+
+        if ((ult_y+ult_x) % 2 == 0)
             cout << "PARCEIROS\n";
+        else
+            cout << "NAO PARCEIROS\n";
     }
     return 0;
 }

@@ -1,5 +1,5 @@
-progamName=expressao_simples #mudar nome do programa
-scr=espressao_simples.cpp
+progamName=boa_ordem_palindroma #mudar nome do programa
+scr=boa_ordem_palindroma.cpp
 
 all:$(progamName)
 
